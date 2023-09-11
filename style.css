@@ -1,0 +1,53 @@
+body {
+    background-color: darkblue;
+    background-image: url("https://wallpapercave.com/wp/wp3507197.jpg");
+    padding:20%;
+}
+
+#game {
+    max-width: 1000px;
+    max-height: 600px;
+    background-color: lightgray;
+    color: white;
+    align-self: normal;
+    padding: 20px;
+
+}
+#Game_Title {
+    color: white;
+    text-shadow: #FC0 1px 0 10px;
+    font-size: large;
+}
+#stats {
+    border: 1px black solid;
+    color: black;
+    padding: 5px;
+  }
+
+#text {
+    background-color: black;
+    color: white;
+    padding: 10px;
+}
+
+#controls {
+    border: 1px black solid;
+    padding: 5px;
+}
+
+#MonsterSpan {
+    display: none;
+    border: 1px black solid;
+    color: white;
+    padding: 5px;
+    background-color: red;
+}
+.stat {
+    padding-right: 10px;
+}
+
+#footer {
+    position: fixed;
+    bottom: 0;
+    color: white;
+}
